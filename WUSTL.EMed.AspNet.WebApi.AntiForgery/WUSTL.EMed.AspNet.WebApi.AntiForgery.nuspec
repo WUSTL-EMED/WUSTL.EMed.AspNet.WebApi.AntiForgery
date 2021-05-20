@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>WUSTL.EMed.AspNet.WebApi.AntiForgery</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/WUSTL-EMED/WUSTL.EMed.AspNet.WebApi.AntiForgery</projectUrl>
+    <description>Enables validating an anti-forgery token header on ASP.NET Web API requests.</description>
+    <copyright>$copyright$</copyright>
+    <tags>aspnet aspnetwebapi webapi antiforgery antiforgerytoken validateantiforgerytoken</tags>
+    <repository type="git" url="https://github.com/WUSTL-EMED/WUSTL.EMed.AspNet.WebApi.AntiForgery.git"></repository>
+  </metadata>
+</package>

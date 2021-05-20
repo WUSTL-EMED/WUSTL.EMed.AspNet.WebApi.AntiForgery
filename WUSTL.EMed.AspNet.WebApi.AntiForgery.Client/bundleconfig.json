@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFileName": "wwwroot/WebApiAntiForgery.min.js",
+    "inputFiles": [
+      "wwwroot/WebApiAntiForgery.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/jQuery.WebApiAntiForgery.min.js",
+    "inputFiles": [
+      "wwwroot/jQuery.WebApiAntiForgery.js"
+    ]
+  }
+]

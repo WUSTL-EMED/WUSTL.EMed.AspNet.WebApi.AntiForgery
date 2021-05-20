@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WUSTL.EMed.AspNet.WebApi.AntiForgery", "WUSTL.EMed.AspNet.WebApi.AntiForgery\WUSTL.EMed.AspNet.WebApi.AntiForgery.csproj", "{188C0A86-F639-4A60-AB35-D62C99511C01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WUSTL.EMed.AspNet.WebApi.AntiForgery.Client", "WUSTL.EMed.AspNet.WebApi.AntiForgery.Client\WUSTL.EMed.AspNet.WebApi.AntiForgery.Client.csproj", "{B3BBD02B-BDD1-4C94-9828-8CB47DA546AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F6938142-2611-4A4E-8A60-705B6914A4A1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		THIRD-PARTY-NOTICES.txt = THIRD-PARTY-NOTICES.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{188C0A86-F639-4A60-AB35-D62C99511C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188C0A86-F639-4A60-AB35-D62C99511C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188C0A86-F639-4A60-AB35-D62C99511C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188C0A86-F639-4A60-AB35-D62C99511C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3BBD02B-BDD1-4C94-9828-8CB47DA546AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BBD02B-BDD1-4C94-9828-8CB47DA546AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BBD02B-BDD1-4C94-9828-8CB47DA546AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BBD02B-BDD1-4C94-9828-8CB47DA546AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D44F486-23EA-4158-BB19-49C4EA841561}
+	EndGlobalSection
+EndGlobal

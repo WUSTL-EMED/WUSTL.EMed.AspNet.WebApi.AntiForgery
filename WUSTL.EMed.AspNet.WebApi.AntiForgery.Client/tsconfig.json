@@ -1,0 +1,27 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "baseUrl": ".",
+    "module": "none",
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "removeComments": false,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictBindCallApply": true,
+    "target": "ES6",
+    "typeRoots": [
+      "wwwroot/lib/@types"
+    ]
+  },
+  "include": [
+    "wwwroot"
+  ],
+  "exclude": [
+    "node_modules",
+    "_wwwroot"
+  ]
+}
