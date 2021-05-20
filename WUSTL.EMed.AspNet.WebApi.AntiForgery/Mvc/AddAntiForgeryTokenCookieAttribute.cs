@@ -22,6 +22,11 @@ namespace WUSTL.EMed.AspNet.WebApi.AntiForgery.Mvc
         /// </summary>
         public string CookieName { get; set; }
 
+        /// <summary>
+        /// Gets or sets the path of the antiforgery token cookie to set.
+        /// </summary>
+        public string CookiePath { get; set; }
+
         /// <inheritdoc/>
         public override void OnActionExecuted(ActionExecutedContext filterContext)
         {
@@ -31,6 +36,7 @@ namespace WUSTL.EMed.AspNet.WebApi.AntiForgery.Mvc
             }
 
             var cookieName = CookieName ?? WebApiAntiForgeryConfig.TokenCookieName;
+            var cookiePath = CookiePath ?? WebApiAntiForgeryConfig.TokenCookiePath;
             var requireSsl = AntiForgeryConfig.RequireSsl;
             var antiForgeryCookieName = AntiForgeryConfig.CookieName;
 
@@ -48,7 +54,7 @@ namespace WUSTL.EMed.AspNet.WebApi.AntiForgery.Mvc
                 response.SetCookie(new HttpCookie(antiForgeryCookieName, newCookieToken) { HttpOnly = true, Secure = requireSsl }); // TODO: Secure = request.IsSecureConnection?
             }
 
-            response.SetCookie(new HttpCookie(cookieName, formToken) { HttpOnly = false, Secure = request.IsSecureConnection });
+            response.SetCookie(new HttpCookie(cookieName, formToken) { HttpOnly = false, Secure = requireSsl, Path = cookiePath });
         }
 
         // HttpCookieCollection[] and HttpCookieCollection.Get both set an empty response cookie for some reason if no cookie with the given name exists.

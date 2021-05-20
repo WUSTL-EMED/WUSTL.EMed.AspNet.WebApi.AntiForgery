@@ -21,12 +21,17 @@ namespace WUSTL.EMed.AspNet.WebApi.AntiForgery
         public const string DefaultTokenHeaderName = "X-XSRF-TOKEN";
 
         /// <summary>
-        /// Gets or sets a value indicating the default name of the antiforgery token cookie.
+        /// Gets or sets the default name of the antiforgery token cookie.
         /// </summary>
         public static string TokenCookieName { get; set; } = DefaultTokenCookieName;
 
         /// <summary>
-        /// Gets or sets a value indicating the default name of the antiforgery token heaer.
+        /// Gets or sets the default path of the antiforgery token cookie.
+        /// </summary>
+        public static string TokenCookiePath { get; set; } = "/";
+
+        /// <summary>
+        /// Gets or sets the default name of the antiforgery token heaer.
         /// </summary>
         public static string TokenHeaderName { get; set; } = DefaultTokenHeaderName;
 
