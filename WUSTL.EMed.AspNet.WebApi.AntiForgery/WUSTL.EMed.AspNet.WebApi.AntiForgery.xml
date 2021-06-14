@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WUSTL.EMed.AspNet.WebApi.AntiForgery</name>
+    </assembly>
+    <members>
+        <member name="T:WUSTL.EMed.AspNet.WebApi.AntiForgery.Http.AddAntiForgeryTokenCookieAttribute">
+            <summary>
+            An ASP.NET Web API filter attribute that will set an anti-forgery token cookie on responses.
+            </summary>
+        </member>
+        <member name="P:WUSTL.EMed.AspNet.WebApi.AntiForgery.Http.AddAntiForgeryTokenCookieAttribute.CookieName">
+            <summary>
+            Gets or sets the name of the antiforgery token cookie to set.
+            </summary>
+        </member>
+        <member name="M:WUSTL.EMed.AspNet.WebApi.AntiForgery.Http.AddAntiForgeryTokenCookieAttribute.OnActionExecuted(System.Web.Http.Filters.HttpActionExecutedContext)">
+            <inheritdoc/>
+        </member>
+        <member name="T:WUSTL.EMed.AspNet.WebApi.AntiForgery.Http.ValidateAntiForgeryTokenAttribute">
+            <summary>
+            An ASP.NET Web API filter attribute that will validate an anti-forgery token header on requests.
+            </summary>
+        </member>
+        <member name="P:WUSTL.EMed.AspNet.WebApi.AntiForgery.Http.ValidateAntiForgeryTokenAttribute.HeaderName">
+            <summary>
+            Gets or sets the name of the antiforgery token header to validate.
+            </summary>
+        </member>
+        <member name="P:WUSTL.EMed.AspNet.WebApi.AntiForgery.Http.ValidateAntiForgeryTokenAttribute.MissingMessage">
+            <summary>
+            Gets or sets the  message returned if the token header is missing.
+            </summary>
+        </member>
+        <member name="M:WUSTL.EMed.AspNet.WebApi.AntiForgery.Http.ValidateAntiForgeryTokenAttribute.OnActionExecuting(System.Web.Http.Controllers.HttpActionContext)">
+            <inheritdoc/>
+        </member>
+        <member name="T:WUSTL.EMed.AspNet.WebApi.AntiForgery.Mvc.AddAntiForgeryTokenCookieAttribute">
+            <summary>
+            An ASP.NET MVC filter attribute that will set an anti-forgery token cookie on responses.
+            </summary>
+        </member>
+        <member name="P:WUSTL.EMed.AspNet.WebApi.AntiForgery.Mvc.AddAntiForgeryTokenCookieAttribute.CookieName">
+            <summary>
+            Gets or sets the name of the antiforgery token cookie to set.
+            </summary>
+        </member>
+        <member name="M:WUSTL.EMed.AspNet.WebApi.AntiForgery.Mvc.AddAntiForgeryTokenCookieAttribute.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <inheritdoc/>
+        </member>
+        <member name="T:WUSTL.EMed.AspNet.WebApi.AntiForgery.WebApiAntiForgeryConfig">
+            <summary>
+            Static class of settings.
+            </summary>
+        </member>
+        <member name="F:WUSTL.EMed.AspNet.WebApi.AntiForgery.WebApiAntiForgeryConfig.DefaultTokenCookieName">
+            <summary>
+            The default name of the antiforgery token cookie.
+            </summary>
+        </member>
+        <member name="F:WUSTL.EMed.AspNet.WebApi.AntiForgery.WebApiAntiForgeryConfig.DefaultTokenHeaderName">
+            <summary>
+            The default name of the antiforgery token header.
+            </summary>
+        </member>
+        <member name="P:WUSTL.EMed.AspNet.WebApi.AntiForgery.WebApiAntiForgeryConfig.TokenCookieName">
+            <summary>
+            Gets or sets a value indicating the default name of the antiforgery token cookie.
+            </summary>
+        </member>
+        <member name="P:WUSTL.EMed.AspNet.WebApi.AntiForgery.WebApiAntiForgeryConfig.TokenHeaderName">
+            <summary>
+            Gets or sets a value indicating the default name of the antiforgery token heaer.
+            </summary>
+        </member>
+        <member name="P:WUSTL.EMed.AspNet.WebApi.AntiForgery.WebApiAntiForgeryConfig.MissingMessage">
+            <summary>
+            Gets or sets the default message returned if the token header is missing.
+            </summary>
+        </member>
+        <member name="T:ThisAssembly">
+            <summary>Provides access to the current assembly information.</summary>
+        </member>
+        <member name="T:ThisAssembly.Git">
+            <summary>Provides access to the git information for the current assembly.</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.IsDirty">
+            <summary>IsDirty: false</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.IsDirtyString">
+            <summary>IsDirtyString: false</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.RepositoryUrl">
+            <summary>Repository URL: git@github.com:WUSTL-EMED/WUSTL.EMed.AspNet.WebApi.AntiForgery.git</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Branch">
+            <summary>Branch: master</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Commit">
+            <summary>Commit: fe3d8ba</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Sha">
+            <summary>Sha: fe3d8bab500e307e2886bd7ac05f441a01136ef7</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.CommitDate">
+            <summary>Commit date: 2021-05-19T15:43:41-05:00</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Commits">
+            <summary>Commits on top of base version: 1</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Tag">
+            <summary>Tag: </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.BaseTag">
+            <summary>Base tag: </summary>
+        </member>
+        <member name="T:ThisAssembly.Git.BaseVersion">
+            <summary>Provides access to the base version information used to determine the <see cref="T:ThisAssembly.Git.SemVer" />.</summary>      
+        </member>
+        <member name="F:ThisAssembly.Git.BaseVersion.Major">
+            <summary>Major: 0</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.BaseVersion.Minor">
+            <summary>Minor: 0</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.BaseVersion.Patch">
+            <summary>Patch: 0</summary>
+        </member>
+        <member name="T:ThisAssembly.Git.SemVer">
+            <summary>Provides access to SemVer information for the current assembly.</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Major">
+            <summary>Major: 0</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Minor">
+            <summary>Minor: 0</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Patch">
+            <summary>Patch: 1</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Label">
+            <summary>Label: </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.DashLabel">
+            <summary>Label with dash prefix: </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Source">
+            <summary>Source: Default</summary>
+        </member>
+    </members>
+</doc>

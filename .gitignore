@@ -364,6 +364,4 @@ FodyWeavers.xsd
 # Strong name key file
 *.snk
 
-WUSTL.EMed.AspNet.WebApi.AntiForgery/WUSTL.EMed.AspNet.WebApi.AntiForgery.xml
-
 WUSTL.EMed.AspNet.WebApi.AntiForgery.Client/wwwroot/lib/

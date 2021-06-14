@@ -14,9 +14,9 @@
     <RootNamespace>WUSTL.EMed.AspNet.WebApi.AntiForgery</RootNamespace>
     <AssemblyName>WUSTL.EMed.AspNet.WebApi.AntiForgery</AssemblyName>
     <FileAlignment>512</FileAlignment>
+    <DocumentationFile>WUSTL.EMed.AspNet.WebApi.AntiForgery.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>WUSTL.EMed.AspNet.WebApi.AntiForgery.xml</DocumentationFile>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
