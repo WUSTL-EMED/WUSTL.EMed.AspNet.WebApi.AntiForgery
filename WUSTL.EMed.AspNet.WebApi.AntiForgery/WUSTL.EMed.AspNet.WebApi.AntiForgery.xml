@@ -14,6 +14,11 @@
             Gets or sets the name of the antiforgery token cookie to set.
             </summary>
         </member>
+        <member name="P:WUSTL.EMed.AspNet.WebApi.AntiForgery.Http.AddAntiForgeryTokenCookieAttribute.CookiePath">
+            <summary>
+            Gets or sets the path of the antiforgery token cookie to set.
+            </summary>
+        </member>
         <member name="M:WUSTL.EMed.AspNet.WebApi.AntiForgery.Http.AddAntiForgeryTokenCookieAttribute.OnActionExecuted(System.Web.Http.Filters.HttpActionExecutedContext)">
             <inheritdoc/>
         </member>
@@ -45,6 +50,11 @@
             Gets or sets the name of the antiforgery token cookie to set.
             </summary>
         </member>
+        <member name="P:WUSTL.EMed.AspNet.WebApi.AntiForgery.Mvc.AddAntiForgeryTokenCookieAttribute.CookiePath">
+            <summary>
+            Gets or sets the path of the antiforgery token cookie to set.
+            </summary>
+        </member>
         <member name="M:WUSTL.EMed.AspNet.WebApi.AntiForgery.Mvc.AddAntiForgeryTokenCookieAttribute.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
             <inheritdoc/>
         </member>
@@ -65,12 +75,17 @@
         </member>
         <member name="P:WUSTL.EMed.AspNet.WebApi.AntiForgery.WebApiAntiForgeryConfig.TokenCookieName">
             <summary>
-            Gets or sets a value indicating the default name of the antiforgery token cookie.
+            Gets or sets the default name of the antiforgery token cookie.
+            </summary>
+        </member>
+        <member name="P:WUSTL.EMed.AspNet.WebApi.AntiForgery.WebApiAntiForgeryConfig.TokenCookiePath">
+            <summary>
+            Gets or sets the default path of the antiforgery token cookie.
             </summary>
         </member>
         <member name="P:WUSTL.EMed.AspNet.WebApi.AntiForgery.WebApiAntiForgeryConfig.TokenHeaderName">
             <summary>
-            Gets or sets a value indicating the default name of the antiforgery token heaer.
+            Gets or sets the default name of the antiforgery token heaer.
             </summary>
         </member>
         <member name="P:WUSTL.EMed.AspNet.WebApi.AntiForgery.WebApiAntiForgeryConfig.MissingMessage">
@@ -85,10 +100,10 @@
             <summary>Provides access to the git information for the current assembly.</summary>
         </member>
         <member name="F:ThisAssembly.Git.IsDirty">
-            <summary>IsDirty: false</summary>
+            <summary>IsDirty: true</summary>
         </member>
         <member name="F:ThisAssembly.Git.IsDirtyString">
-            <summary>IsDirtyString: false</summary>
+            <summary>IsDirtyString: true</summary>
         </member>
         <member name="F:ThisAssembly.Git.RepositoryUrl">
             <summary>Repository URL: git@github.com:WUSTL-EMED/WUSTL.EMed.AspNet.WebApi.AntiForgery.git</summary>
@@ -97,16 +112,16 @@
             <summary>Branch: master</summary>
         </member>
         <member name="F:ThisAssembly.Git.Commit">
-            <summary>Commit: fe3d8ba</summary>
+            <summary>Commit: 6f0a713</summary>
         </member>
         <member name="F:ThisAssembly.Git.Sha">
-            <summary>Sha: fe3d8bab500e307e2886bd7ac05f441a01136ef7</summary>
+            <summary>Sha: 6f0a713f806c16d0a1f78e29ff57ce872aee0004</summary>
         </member>
         <member name="F:ThisAssembly.Git.CommitDate">
-            <summary>Commit date: 2021-05-19T15:43:41-05:00</summary>
+            <summary>Commit date: 2021-06-23T10:33:55-05:00</summary>
         </member>
         <member name="F:ThisAssembly.Git.Commits">
-            <summary>Commits on top of base version: 1</summary>
+            <summary>Commits on top of base version: 8</summary>
         </member>
         <member name="F:ThisAssembly.Git.Tag">
             <summary>Tag: </summary>
@@ -136,7 +151,7 @@
             <summary>Minor: 0</summary>
         </member>
         <member name="F:ThisAssembly.Git.SemVer.Patch">
-            <summary>Patch: 1</summary>
+            <summary>Patch: 8</summary>
         </member>
         <member name="F:ThisAssembly.Git.SemVer.Label">
             <summary>Label: </summary>
